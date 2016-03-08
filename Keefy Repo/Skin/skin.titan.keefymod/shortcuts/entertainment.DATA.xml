@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.bbciplayer</defaultID>
+		<label>BBC iPlayer</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.bbciplayer.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.bbciplayer&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.uktvplay</defaultID>
+		<label>UKTV Play</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.uktvplay.png</thumb>
+		<action>ActivateWindow(VideoLibrary,&quot;plugin://plugin.video.uktvplay&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.itv</defaultID>
+		<label>ITV</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.itv.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.itv&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>script.lazytv</defaultID>
+		<label>LazyTV</label>
+		<label2>Program</label2>
+		<icon>DefaultAddon.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-script.lazytv.png</thumb>
+		<action>RunAddOn(script.lazytv)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>script.lazytv.lazyex</defaultID>
+		<label>Lazytv SALTS</label>
+		<label2>Program</label2>
+		<icon>DefaultAddon.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-script.lazytv.lazyex.png</thumb>
+		<action>RunAddOn(script.lazytv.lazyex)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.castaway</defaultID>
+		<label>Castaway</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.castaway.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.castaway&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>ukturksports</defaultID>
+		<label>Uk Turk Sports</label>
+		<label2>Favourite</label2>
+		<icon>DefaultFolder.png</icon>
+		<thumb>http://metalkettle.co/UKTurk2/thumbs/UK TURK sports.jpg</thumb>
+		<action>PlayMedia(&quot;plugin://plugin.program.super.favourites/?label=Uk+Turk+Sports&amp;mode=650&amp;cmd=ActivateWindow%2810025%2C%22plugin%3A%2F%2Fplugin.video.ukturk%2F%3Fdescription%26iconimage%3Dhttp%253a%252f%252fmetalkettle.co%252fUKTurk2%252fthumbs%252fUK%2520TURK%2520sports.jpg%26mode%3D1%26name%3DSports%26url%3Dhttp%253a%252f%252fmetalkettle.co%252fUKTurk2%252fSportsList.txt%22%2Creturn%29&amp;image=http%3A%2F%2Fmetalkettle.co%2FUKTurk2%2Fthumbs%2FUK+TURK+sports.jpg&amp;sf_options=winID%3D10025%26_options_sf&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>standup</defaultID>
+		<label>Standup</label>
+		<label2>Favourite</label2>
+		<icon>DefaultFolder.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-standup.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.program.super.favourites/?label=Standup&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper%20Favourites%5CStandup&amp;sf_options=fanart%3Dspecial%3A%2F%2Fhome%2Faddons%5Cplugin.program.super.favourites%5Cfanart.jpg%26_options_sf&quot;,return)</action>
+	</shortcut>
+</shortcuts>

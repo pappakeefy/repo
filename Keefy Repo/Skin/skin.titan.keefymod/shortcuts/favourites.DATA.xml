@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID>plugin.video.abcfamily</defaultID>
+		<label>ABC Family</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.abcfamily.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.abcfamily&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.itunes_trailers</defaultID>
+		<label>Apple iTunes Trailers</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.itunes_trailers.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.itunes_trailers&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.funniermoments</defaultID>
+		<label>Funnier Moments</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.funniermoments.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.funniermoments&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.ukturk</defaultID>
+		<label>UK Turk Playlists</label>
+		<label2>Video Add-On</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-plugin.video.ukturk.png</thumb>
+		<action>ActivateWindow(10025,&quot;plugin://plugin.video.ukturk&quot;,return)</action>
+	</shortcut>
+</shortcuts>
