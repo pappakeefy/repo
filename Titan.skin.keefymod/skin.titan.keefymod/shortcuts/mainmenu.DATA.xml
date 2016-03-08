@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><shortcuts>
+	<shortcut>
+		<defaultID>livetv</defaultID>
+		<label>32022</label>
+		<label2>Live TV</label2>
+		<icon>special://skin/extras/hometiles/livetv.png</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.PvrBackground)]</thumb>
+		<action>ActivateWindow(TVGuide)</action>
+		<visible>System.GetBool(pvrmanager.enabled)</visible>
+	</shortcut>
+	<shortcut>
+		<defaultID>10134</defaultID>
+		<label>[COLOR ff0080ff]F[/COLOR]avourites</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/hometiles/favourites.png</icon>
+		<thumb/>
+		<action>ActivateWindow(favourites)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>script.lazytv</defaultID>
+		<label>[COLOR ff0080ff]T[/COLOR]V [COLOR ff0080ff]S[/COLOR]hows</label>
+		<label2>Program</label2>
+		<icon>DefaultAddon.png</icon>
+		<thumb>image://%2fhome%2fkeith%2f.kodi%2faddons%2fscript.lazytv%2ficon.png/</thumb>
+		<action>RunAddOn(script.lazytv)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>movies</defaultID>
+		<label>[COLOR ff0080ff]M[/COLOR]ovies</label>
+		<label2>Custom item</label2>
+		<icon>special://skin/extras/hometiles/titan.png</icon>
+		<thumb>$INFO[Window(Home).Property(SkinHelper.AllMoviesBackground)]</thumb>
+		<action>ActivateWindow(VideoLibrary,&quot;plugin://plugin.video.exodus/?action=movieNavigator&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>[COLOR ff0080ff]E[/COLOR]ntertainment</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb/>
+		<action>ActivateWindow(VideoLibrary,&quot;plugin://plugin.video.allinone&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>[COLOR ffb20000]K[COLOR ff8088ff]i[COLOR yellow]d[COLOR green]s[/COLOR]</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>special://profile/addon_data/script.skinshortcuts/skin.titan.jarvisbeta-thumb-[COLOR ffb20000]K[COLOR ff8088ff]i[COLOR yellow]d[COLOR green]s[-COLOR].jpg</thumb>
+		<action>ActivateWindow(VideoLibrary,&quot;plugin://plugin.program.super.favourites/?label=Live+Kids&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FLive+Kids&amp;image=special%3A%2F%2Fhome%2Faddons%2Fplugin.video.bbciplayer%2Fimg%2Fcbeebies.png&amp;fanart=%2Fstorage%2Femulated%2F0%2FAndroid%2Fdata%2Forg.xbmc.kodi%2Ffiles%2F.kodi%2Faddons%2Fplugin.program.super.favourites%2Ffanart.jpg&amp;content_type=&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID/>
+		<label>[COLOR ff0080ff]F[/COLOR]ood</label>
+		<label2>Custom item</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb/>
+		<action>ActivateWindow(VideoLibrary,&quot;plugin://plugin.program.super.favourites/?label=Keefy%27s+Cooking+Links&amp;mode=400&amp;path=special%3A%2F%2Fprofile%2Faddon_data%2Fplugin.program.super.favourites%2FSuper+Favourites%2FKeefy%27s+Cooking+Links&amp;image=https%3A%2F%2Fwalter.trakt.us%2Fimages%2Fshows%2F000%2F040%2F105%2Fposters%2Foriginal%2Fa6802ee458.jpg&amp;fanart=https%3A%2F%2Fwalter.trakt.us%2Fimages%2Fshows%2F000%2F040%2F105%2Ffanarts%2Foriginal%2F592f8b54bd.jpg&amp;content_type=&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>10040</defaultID>
+		<label>[COLOR gold]A[/COLOR]dd-[COLOR gold]o[/COLOR]n [COLOR gold]b[/COLOR]rowser</label>
+		<label2>Add-on browser</label2>
+		<icon>special://skin/extras/hometiles/addons.png</icon>
+		<thumb/>
+		<action>ActivateWindow(Programs,Addons,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>plugin.video.KeefyWizard</defaultID>
+		<label>[COLOR gold]M[/COLOR]aintenance</label>
+		<label2>Program</label2>
+		<icon>DefaultShortcut.png</icon>
+		<thumb>image://%2fhome%2fkeith%2f.kodi%2faddons%2fplugin.video.KeefyWizard%2ficon.png/</thumb>
+		<action>ActivateWindow(Programs,&quot;plugin://plugin.video.KeefyWizard&quot;,return)</action>
+	</shortcut>
+	<shortcut>
+		<defaultID>settings</defaultID>
+		<label>[COLOR gold]S[/COLOR]ettings</label>
+		<label2>Settings</label2>
+		<icon>special://skin/extras/hometiles/settings.png</icon>
+		<thumb/>
+		<action>ActivateWindow(Settings)</action>
+	</shortcut>
+</shortcuts>
