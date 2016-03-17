@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.KeefyWizard" name="KeefyWizard" version="2.1.5" provider-name="www.pappakeefy.com">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0"/>
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en">Keefy Wizard</summary>
+    <description lang="en">Subscribe online to 'ororo.tv' to fully benefit my build.  Any suggestions? Go to www.pappakeefy.com and leave a comment or buy me a beer!</description>
+    <platform>all</platform>
+  </extension>
+</addon>
